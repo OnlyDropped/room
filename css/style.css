@@ -115,6 +115,44 @@ body {
   margin-left: 3px;
 }
 
+.jq-selectbox__select {
+  height: 32px;
+  padding: 0 45px 0 10px;
+  border-radius: 0px;
+  background: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  /* font: 14px/32px Arial, sans-serif; */
+  /* color: #333; */
+  text-shadow: none;
+  border: none;
+}
+
+.jq-selectbox__select-text {
+  display: block;
+  width: 100%;
+  color: crimson;
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 33px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+}
+
+.jq-selectbox__trigger {
+  border-left: none;
+  background-image: url("../img/icon/arrowDown.svg");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+.jq-selectbox__trigger-arrow {
+  display: none;
+}
+
 .header-nav {
   border-bottom: 1px solid #e0e0e0;
 }
