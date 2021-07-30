@@ -347,7 +347,7 @@ body {
 }
 
 .about {
-  padding: 49px 0px 215px;
+  padding: 49px 0px 247px;
   font-family: Roboto, sans-serif;
 }
 
@@ -406,6 +406,50 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #1a1a1a;
+}
+
+.brands {
+  padding-bottom: 239px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+.brands__title {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 48px;
+  color: #1a1a1a;
+  margin-bottom: 27px;
+}
+
+.brands__text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4a4a4a;
+  margin-bottom: 125px;
+}
+
+.brands__card {
+  max-width: 1069px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  row-gap: 49px;
+}
+
+.brands__card-link {
+  display: block;
+  margin: 0 auto;
+  -ms-flex-preferred-size: 16%;
+      flex-basis: 16%;
+  background-color: crimson;
 }
 
 @media (max-width: 375px) {
