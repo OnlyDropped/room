@@ -346,6 +346,68 @@ body {
   color: #ffffff;
 }
 
+.about {
+  padding: 49px 0px 215px;
+  font-family: Roboto, sans-serif;
+}
+
+.about__images {
+  margin-bottom: 80px;
+}
+
+.about__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto 210px;
+}
+
+.about__info-title {
+  max-width: 355px;
+  margin-right: 136px;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1a1a1a;
+}
+
+.about__info-text {
+  max-width: 569px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #aaaaaa;
+}
+
+.about__cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-column-gap: 24px;
+          column-gap: 24px;
+  row-gap: 32px;
+}
+
+.about__cards-img {
+  margin-bottom: 9px;
+}
+
+.about__cards-span {
+  display: block;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1a1a1a;
+}
+
 @media (max-width: 375px) {
   h1 {
     color: yellowgreen;

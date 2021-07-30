@@ -200,5 +200,50 @@
     color: #ffffff;
   }
 }
-
+.about {
+  padding: 49px 0px 215px;
+  font-family: Roboto, sans-serif;
+  &__images {
+    margin-bottom: 80px;
+  }
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto 210px;
+  }
+  &__info-title {
+    max-width: 355px;
+    margin-right: 136px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #1a1a1a;
+  }
+  &__info-text {
+    max-width: 569px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #aaaaaa;
+  }
+  &__cards {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 32px;
+  }
+  &__cards-img {
+    margin-bottom: 9px;
+  }
+  &__cards-span {
+    display: block;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #1a1a1a;
+  }
+}
 @import "media";
