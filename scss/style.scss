@@ -264,7 +264,7 @@
     color: #4a4a4a;
     margin-bottom: 125px;
   }
-  &__card{
+  &__card {
     max-width: 1069px;
     margin: 0 auto;
     display: flex;
@@ -272,11 +272,78 @@
     justify-content: space-between;
     row-gap: 49px;
   }
-  &__card-link{
+  &__card-link {
     display: block;
     margin: 0 auto;
     flex-basis: 16%;
-    background-color: crimson;
   }
+}
+.slider {
+  padding-bottom: 119px;
+  &__box {
+    transition: all 0.6s cubic-bezier(0.93, 0.4, 0.36, 0.29);
+    margin: 0 auto;
+    opacity: 0.4;
+  }
+  &__box > img {
+    width: 1344px;
+  }
+}
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+.slick-dots .slick-active {
+  padding: 0px;
+}
+.slick-dots li button {
+  font-size: 0;
+  display: block;
+  padding: 0px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 12px;
+  height: 12px;
+  background: #e5e5e5;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+.slick-dots li.slick-active button {
+  background: #46856e;
+}
+.slick-active {
+  padding: 20px 0;
+}
+.slick-initialized .slick-slide {
+  display: block;
+  position: relative;
+}
+.slider__box.slick-center {
+  opacity: 1;
+  z-index: 55;
+  margin: 0 auto;
+  transform: scale(1.08);
+}
+.slick-slide:not(.slick-active) {
+  margin: 20px 0;
+  z-index: 0;
+}
+button.slick-prev.slick-arrow {
+  border: none;
+  background-color: inherit;
+  position: absolute;
+  transform: translate(100px, 245px);
+  z-index: 111;
+  cursor: pointer;
+}
+button.slick-next.slick-arrow {
+  border: none;
+  background-color: inherit;
+  position: absolute;
+  transform: translate(1170px, -381px);
+  z-index: 111;
+  cursor: pointer;
 }
 @import "media";
