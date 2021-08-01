@@ -391,9 +391,9 @@ button.slick-next.slick-arrow {
     color: #aaaaaa;
   }
 }
-//.review{
-//
-//}
+.review {
+  padding-bottom: 240px;
+}
 .review-inner {
   background-image: url("../img/review/bg.png");
   padding: 120px 0;
@@ -423,6 +423,49 @@ button.slick-next.slick-arrow {
     letter-spacing: 0.75px;
     text-transform: uppercase;
     color: #ffffff;
+  }
+}
+.work {
+  padding-bottom: 224px;
+  font-family: Roboto, sans-serif;
+  &__inner {
+    max-width: 882px;
+    margin: 0 auto 135px;
+    font-size: 46px;
+    line-height: 52px;
+  }
+  &__inner-text {
+    font-weight: 400;
+    color: $title;
+    margin-bottom: 25px;
+  }
+  &__inner-title {
+    font-weight: 400;
+    color: #000000;
+  }
+}
+.work-card {
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto 64px;
+  font-family: Roboto;
+  &__box {
+    width: 311px;
+    padding-left: 90px;
+  }
+  &__box-title {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #1a1a1a;
+    margin-bottom: 27px;
+  }
+  &__box-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #aaaaaa;
   }
 }
 @import "media";
