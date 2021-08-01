@@ -540,6 +540,61 @@ button.slick-next.slick-arrow {
   cursor: pointer;
 }
 
+.product {
+  padding-bottom: 240px;
+}
+
+.product__inner {
+  max-width: 1090px;
+  margin: 0 auto;
+  font-style: Roboto, sans-serif;
+}
+
+.product__text {
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 56px;
+  color: #1a1a1a;
+  margin-bottom: 24px;
+}
+
+.product__span {
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #46856e;
+  margin-bottom: 71px;
+}
+
+.product-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: Roboto, sans-serif;
+}
+
+.product-box__card-img {
+  margin: 0 auto 52px;
+}
+
+.product-box__card-title {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: #1a1a1a;
+  margin-bottom: 18px;
+}
+
+.product-box__card-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #aaaaaa;
+}
+
 @media (max-width: 375px) {
   h1 {
     color: yellowgreen;
