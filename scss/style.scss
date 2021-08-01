@@ -468,4 +468,65 @@ button.slick-next.slick-arrow {
     color: #aaaaaa;
   }
 }
+.travel {
+  padding: 167px 0 79px;
+}
+.travel-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #f2f2f2;
+  border-radius: 2px;
+  padding: 63px 0 26px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  &__title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 46px;
+    line-height: 51px;
+    color: #000000;
+    margin-bottom: 65px;
+  }
+  &__cards {
+    display: flex;
+    justify-content: center;
+    column-gap: 66px;
+    margin-bottom: 70px;
+  }
+  &__cards-card > img {
+    min-height: 64px;
+    margin: 0 auto 22px;
+  }
+  &__cards-text {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #1a1a1a;
+  }
+  &__btn {
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: #46856e;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 24px;
+    cursor: pointer;
+    margin-bottom: 21px;
+  }
+  &__link {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #aaaaaa;
+  }
+}
 @import "media";
