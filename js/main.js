@@ -1,7 +1,7 @@
-$(function() {
+$(function () {
 
   $('.header__select').styler();
-  
+
   $('.center').slick({
     centerMode: true,
     slidesToShow: 1,
@@ -15,6 +15,11 @@ $(function() {
     //speed: 300,
     centerPadding: '100px',
     //slidesToShow: 3,
+  });
+  $(".star").rateYo({
+    rating: 5,
+    starWidth: "21px",
+    ratedFill: "#FFF4CB"
   });
 
 });

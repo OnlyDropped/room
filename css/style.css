@@ -595,6 +595,42 @@ button.slick-next.slick-arrow {
   color: #aaaaaa;
 }
 
+.review-inner {
+  background-image: url("../img/review/bg.png");
+  padding: 120px 0;
+}
+
+.review-inner__wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-left: 125px;
+}
+
+.review-inner__card {
+  margin-bottom: 39px;
+  width: 228px;
+}
+
+.review-inner__card-text {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 7px;
+  margin-bottom: 8px;
+}
+
+.review-inner__link {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
 @media (max-width: 375px) {
   h1 {
     color: yellowgreen;
