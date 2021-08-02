@@ -1,5 +1,171 @@
 @media (max-width: 375px) {
-  h1{
-    color: yellowgreen;
+  .header {
+    padding: 10px 0;
+    &__info-text,
+    &__info-contact,
+    &__info-tel {
+      font-size: 13px;
+      margin-right: 16px;
+    }
+    .jq-selectbox__select {
+      padding: 0 30px 0 10px;
+    }
+    .jq-selectbox li {
+      min-height: 35px;
+      padding: 5px 8px 5px;
+      color: #1b1a3e;
+      text-transform: uppercase;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 33px;
+      letter-spacing: 3px;
+      transition: all 0.6s ease-out;
+    }
+    .jq-selectbox li:hover {
+      background-color: rgb(139, 139, 214);
+      color: #fff;
+    }
+  }
+  .header-nav {
+    &__inner {
+      padding: 15px 0px 15px;
+      flex-wrap: wrap;
+    }
+    &__info {
+      order: -1;
+    }
+    .header__logo {
+      order: -1;
+    }
+    &__list-item + .header-nav__list-item {
+      margin-left: 50px;
+    }
+    &__link {
+      font-size: 16px;
+    }
+    &__cart {
+      margin-left: 20px;
+    }
+  }
+  .about {
+    padding: 40px 0px;
+    &__images {
+      margin-bottom: 40px;
+    }
+    &__info {
+      flex-direction: column;
+      margin: 0 auto 35px;
+    }
+    &__info-title {
+      margin-right: 0px;
+      font-size: 36px;
+      width: 100%;
+      margin-bottom: 20px;
+      line-height: 48px;
+    }
+  }
+  .brands {
+    padding: 25px 0;
+    &__title {
+      font-size: 45px;
+      line-height: 47px;
+      margin-bottom: 22px;
+    }
+    &__text {
+      margin-bottom: 50px;
+    }
+    &__card {
+      row-gap: 40px;
+      column-gap: 2px;
+    }
+    &__card-link {
+      flex-basis: 33%;
+    }
+  }
+  .slider {
+    padding-bottom: 20px;
+  }
+  .product {
+    padding: 20px 0;
+    &__text {
+      font-size: 34px;
+      line-height: 43px;
+      margin-bottom: 25px;
+    }
+    &__span {
+      margin-bottom: 25px;
+    }
+  }
+  .product-box {
+    flex-direction: column;
+    &__card {
+      margin-bottom: 10px;
+    }
+    &__card-img {
+      margin: 0 auto 30px;
+    }
+  }
+  .review {
+    padding-bottom: 0;
+  }
+  .review-inner {
+    padding: 20px 0;
+    margin-left: -15px;
+    margin-right: -15px;
+    background-position: top;
+    background-size: cover;
+    &__wrapper {
+      padding-left: 40px;
+    }
+    &__card-text {
+      font-size: 18px;
+      line-height: 29px;
+      color: #6b3232;
+    }
+  }
+  .work {
+    padding: 20px 0;
+  }
+  .work__inner {
+    margin: 0 auto 20px;
+    font-size: 27px;
+    line-height: 40px;
+  }
+  .work-card {
+    flex-direction: column;
+    margin: 0 auto 50px;
+    &__box {
+      width: 100%;
+      padding-left: 0;
+      padding-top: 15px;
+    }
+    &__box:nth-child(2) {
+      padding-left: 0;
+    }
+  }
+  .travel {
+    padding: 20px 0px;
+  }
+  .travel-inner {
+    padding: 20px 0px;
+    margin-left: -15px;
+    margin-right: -15px;
+    &__title {
+      font-size: 36px;
+      line-height: 40px;
+      margin-bottom: 45px;
+    }
+    &__cards {
+      column-gap: 42px;
+      margin-bottom: 40px;
+    }
+    &__btn {
+      font-size: 18px;
+      line-height: 45px;
+      padding: 5px 21px;
+    }
+  }
+  .slider{
+    display: none;
   }
 }
