@@ -17,7 +17,7 @@ $(function () {
     centerPadding: '100px',
     responsive: [
       {
-        breakpoint: 375,
+        breakpoint: 360,
         settings: {
           arrows: false,
           dots: false,
