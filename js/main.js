@@ -1,6 +1,7 @@
 $(function () {
 
   $('.header__select').styler();
+  $('.footer__content-select').styler();
 
   $('.center').slick({
     centerMode: true,

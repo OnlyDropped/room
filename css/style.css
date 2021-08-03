@@ -770,7 +770,7 @@ button.slick-next.slick-arrow {
   }
   .header__info-text, .header__info-contact, .header__info-tel {
     font-size: 13px;
-    margin-right: 16px;
+    margin-right: 11px;
   }
   .header .jq-selectbox__select {
     padding: 0 30px 0 10px;
@@ -947,6 +947,55 @@ button.slick-next.slick-arrow {
   }
   .slider {
     display: none;
+  }
+  .footer {
+    padding: 20px 0px;
+  }
+  .footer__wrapper {
+    width: 100%;
+  }
+  .footer__inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__logo {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+  .footer__content {
+    width: 100%;
+  }
+  .footer__content-title {
+    padding-left: 0px;
+  }
+  .footer__content-subtitle {
+    padding-left: 0px;
+  }
+  .footer__content-input {
+    margin-left: 0px;
+    padding: 10px;
+  }
+  .footer__content-select {
+    margin-left: 0px;
+    margin-bottom: 40px;
+    margin-right: 0;
+  }
+  .footer__content-label {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    margin-bottom: 30px;
+  }
+  .footer .jq-selectbox__select {
+    padding: 0 40px 0 0px;
+  }
+  .footer .jq-selectbox__select-text {
+    font-size: 14px;
+    line-height: 38px;
+    letter-spacing: 1px;
+    color: aliceblue;
   }
 }
 /*# sourceMappingURL=style.css.map */
