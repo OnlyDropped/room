@@ -15,8 +15,21 @@ $(function () {
     //infinite: true,
     //speed: 300,
     centerPadding: '100px',
-    //slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 375,
+        settings: {
+          arrows: false,
+          dots: false,
+          centerMode: true,
+          centerPadding: '40px',
+          slidesToShow: 1
+        }
+      }
+    ]
   });
+
+
   $(".star").rateYo({
     rating: 5,
     starWidth: "21px",
